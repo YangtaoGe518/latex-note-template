@@ -28,25 +28,16 @@
 \usepackage[nameinlink]{cleveref} %nameinlink ensures that the entire element is clickable in the pdf, not just the number
 \usepackage[explicit]{titlesec}
 
+\usepackage{listings} %code display
+
 \input{macros.tex}
 
-\title{\huge\sffamily\bfseries A Fun Template}
-\author{\Large\sffamily Senan Sekhon}
-\date{\sffamily October 4, 2020}
+\title{\huge\sffamily\bfseries Note Template}
+\author{\Large\sffamily Yangtao Ge}
+\date{\sffamily \today}
 
 \begin{document}
-
-\setlength{\abovedisplayskip}{3pt}
-\setlength{\belowdisplayskip}{3pt}
-\setlength{\abovedisplayshortskip}{0pt}
-\setlength{\belowdisplayshortskip}{0pt}
 \maketitle
-
-%Custom colors for different environments
-\definecolor{contcol1}{HTML}{72E094}
-\definecolor{contcol2}{HTML}{24E2D6}
-\definecolor{convcol1}{HTML}{C0392B}
-\definecolor{convcol2}{HTML}{8E44AD}
 
 \begin{tcolorbox}[title=Contents, fonttitle=\huge\sffamily\bfseries\selectfont,interior style={left color=contcol1!40!white,right color=contcol2!40!white},frame style={left color=contcol1!80!white,right color=contcol2!80!white},coltitle=black,top=2mm,bottom=2mm,left=2mm,right=2mm,drop fuzzy shadow,enhanced,breakable]
 \makeatletter
